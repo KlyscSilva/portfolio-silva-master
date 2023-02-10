@@ -20,8 +20,6 @@
     
 }
 
-
-
 nav {
     display: flex;
     align-items: center;
@@ -117,22 +115,24 @@ section div p {
 
 section div button {
 
-    color: white;
+    color: #ffffff;
     background: #f9004d;
     border: none;
     height: 50px;
-    border-radius: 28px;
+    border-radius: 25px;
     font-size: 15px;
     width: 170px;
-    padding: 10px;
+    padding: 10px 20px;
     cursor: pointer;
+    justify-content: center;
+    text-decoration: none;
     
 }
 
 section div button:hover{
 
 
-    background-color: rgb(86, 86, 98);
+    background-color: #565662;
     border: 3px solid #2e5f63;
     transition: 0.5s;
 }
@@ -184,7 +184,7 @@ section div button:hover{
 .card a{
     text-decoration: none;
     background-color: #f9004d;
-    color: white;
+    color: #ffffff;
     padding: 10px 20px;
     border-radius: 25px;
     cursor: pointer;
@@ -676,8 +676,6 @@ h2 span{
 
   position: relative;
   width: 100%;
-  border: solid 1px red;
-
 
 }
 
@@ -686,16 +684,17 @@ section img {
   height: 25%;
   position: absolute;
   top: 85px;
-  right: 75px;
+  right: 60px;
   border-radius: 25px;
 }
 
-div h2 {
+section h2 {
 
-  font-weight: bold;
-  font-size: 30px;
-  display: block;
-  
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  position: relative;
+  bottom: 35px;
 }
 
 div .principal {
@@ -705,6 +704,7 @@ div .principal {
   margin-top: 70px;
   position: relative;
   top: 100px;
+  text-align: center;
 
 }
 
@@ -714,5 +714,38 @@ div .hvr-wobble-bottom {
   width: 100%;
   top: 15px;
 }
+
+
+
+
+
+.card-projetos {
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.projetos {
+  display: flex;
+  align-content: space-around;
+  align-items: stretch;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.card {
+
+  margin: 10px;
+
+}
+
+
+footer {
+
+  height: 10vh;
+
+
+}
+
   
 }
